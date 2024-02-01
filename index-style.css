@@ -1,0 +1,312 @@
+body {
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+    background-color: rgb(231, 236, 243);
+    padding: 10px;
+}
+
+/* Projects Contaienr */
+#projects-container {
+    width: 99%;
+    height: auto;
+    min-height: 570px;
+    margin: 5px;
+}
+
+h1 {
+    width: 99%;
+    height: auto;
+    margin: 5px;
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+#box1 {
+    width: 356px;
+    height: 550px;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-top: 20px;
+}
+
+#box2 {
+    width: 356px;
+    height: 550px;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-top: 20px;
+
+}
+
+#box3 {
+    width: 356px;
+    height: 550px;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-top: 20px;
+
+}
+
+#box1:hover,
+#box2:hover,
+#box3:hover {
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    width: 356px;
+    height: 550px;
+    background: rgba(0, 81, 255, 0.1);
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+.event-description {
+    text-align: justify;
+    margin: 5px 15px;
+    height: 200px;
+}
+
+.event-title {
+    text-align: center;
+    margin: 5px;
+}
+
+.event-image {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    box-shadow: 2px;
+    border-radius: 10%;
+}
+
+.budget {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+/* Free-Lance Contaienr */
+#projects-container2 {
+    width: 99%;
+    height: auto;
+    margin: 5px;
+}
+
+.freelance {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.freelanceimage {
+    height: 256px;
+    width: 356px;
+}
+
+img .freelance {
+    border-radius: 3%;
+}
+
+.freelance:hover {
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    box-shadow: 10px 10px grey;
+    background: rgba(0, 81, 255, 0.1);
+    background-color: white;
+
+}
+
+.freelancetext {
+    margin: 0;
+    padding: 2;
+    width: 356px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
+footer {
+    background-color: #BD6152;
+    padding-left: 88px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0%;
+    margin-top: 150px;
+}
+
+.contact {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    padding: 3px;
+}
+
+
+/* For Smalle Resolutions */
+@media all and (max-width: 500px) {
+    #box1 {
+        width: 312px;
+        height: 550px;
+        background-color: white;
+        margin: 15px;
+        display: inline-block;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 1px grey;
+        padding-top: 20px;
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+    }
+    
+    #box2 {
+        width: 312px;
+        height: 550px;
+        background-color: white;
+        margin: 15px;
+        display: inline-block;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 1px grey;
+        padding-top: 20px;
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+    
+    }
+    
+    #box3 {
+        width: 312px;
+        height: 550px;
+        background-color: white;
+        margin: 15px;
+        display: inline-block;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 1px grey;
+        padding-top: 20px;
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+    
+    }
+    
+    #box1:hover,
+    #box2:hover,
+    #box3:hover {
+        width: 312px;
+        height: 550px;
+        background-color: white;
+        margin: 15px;
+        display: inline-block;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 1px grey;
+        padding-top: 20px;
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+    }
+
+    .freelance {
+        display: inline-block;
+        width: 312px;
+        height: auto;
+        margin: 10px;
+        border-radius: 0px;
+        box-shadow: 1px 1px grey;
+        background-color: white;
+        border-radius: 3%;
+    }
+
+    .freelance:hover {
+        display: inline-block;
+        width: 312px;
+        height: auto;
+        margin: 10px;
+        border-radius: 0px;
+        box-shadow: 1px 1px grey;
+        background-color: white;
+        border-radius: 3%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .freelanceimage {
+        height: 256px;
+        width: 312px;
+    }
+
+    .freelancetext {
+        margin: 0;
+        padding: 2;
+        width: 312px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

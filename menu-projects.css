@@ -1,0 +1,159 @@
+.container {
+    min-height: 400px;
+    width: 95%;
+    margin: 10px 2.5%;
+    position: relative;
+    top: 125px;
+    background-color: rgb(231, 236, 243);
+}
+
+.grid {
+    display: grid;
+    min-height: 600px;
+    width: 95%;
+    margin: 10px 2.5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr 1fr 0.1fr 1fr;
+}
+
+.box {
+    background-color: white;
+}
+
+
+/* Here are the separate boxes */
+#box1 {
+    grid-area: 2 2 4 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #627FB0;
+    box-shadow: 2px 2px grey;
+    transition-duration: 0.5s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    
+}
+
+#box1:hover {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 5px 5px grey;
+    opacity: 0.8;
+}
+
+#box1a {
+    grid-area: 5 1 7 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #627FB0;
+    box-shadow: 2px 2px grey;
+    transition-duration: 0.5s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}
+
+#box1a:hover {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 5px 5px grey;
+    opacity: 0.8;
+
+}
+
+#box1b {
+    grid-area: 5 4 7 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color: #627FB0;
+    box-shadow: 2px 2px grey;
+    transition-duration: 0.5s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+#box1b:hover {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 5px 5px grey;
+    opacity: 0.8;
+
+}
+
+#box2 {
+    grid-area: 2 8 4 11;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 8;
+    grid-column-end: 11;
+    background-color: green;
+    box-shadow: 2px 2px grey;
+    transition-duration: 0.5s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}
+
+#box2:hover {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 5px 5px grey;
+    opacity: 0.8;
+
+}
+
+#box3 {
+    grid-area: 2 14 4 17;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 14;
+    grid-column-end: 17;
+    background-color: orange;
+    box-shadow: 2px 2px grey;
+    transition-duration: 0.5s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}
+
+#box3:hover {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 5px 5px grey;
+    opacity: 0.8;
+
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    color: white;
+    text-shadow: 1px;
+}
+
+h5 {
+    text-align: center;
+    position: relative;
+    top: 22%;
+    color: white;
+    text-shadow: 1px;
+}

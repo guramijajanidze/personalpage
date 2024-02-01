@@ -1,0 +1,158 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1920px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(231, 236, 243);
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.container-title {
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    margin-left: 5%;
+}
+
+
+#football {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px 350px;
+    margin-top: 30px;
+    margin-left: 5%;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#basketball {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    margin-left: 5%;
+    margin-top: 30px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+h3 {
+    margin: 5px;
+}
+
+
+/* Football League Box starts here */
+#football-league-videos {
+    width: 99%;
+    height: auto;
+    margin: 5px; 
+}
+
+
+.football-video {
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    box-shadow: 2px 2px grey;
+}
+
+.football-video:hover {
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    -webkit-filter: brightness(70%);
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px grey;
+}
+
+
+.videophoto {
+    max-width: 360px;
+    max-height: auto;
+}
+
+
+#football-videos-all {
+    max-width: auto;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    box-shadow: 2px 2px grey;
+}
+
+#football-videos-all:hover {
+    max-width: auto;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    -webkit-filter: brightness(70%);
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px grey;
+}
+
+#videoall {
+    max-width: auto;
+    height: 240px;
+}
+
+
+/* Other Activities Box starts here */
+#other-videos {
+    width: 99%;
+    height: auto;
+    margin: 5px; 
+
+}
+
+.other-video {
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    box-shadow: 2px 2px grey;
+    overflow: hidden;
+}
+
+.other-video:hover {
+    width: 360px;
+    height: 240px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    -webkit-filter: brightness(70%);
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px grey;
+    overflow: hidden;
+}
+
+.videophoto2 {
+    max-width: 360px;
+    max-height: auto;
+}
