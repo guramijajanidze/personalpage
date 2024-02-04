@@ -86,7 +86,6 @@
     margin: 5px;
     display: inline-block;
     box-shadow: 2px 2px grey;
-    border: 1px solid red;    
 }
 
 .project1:hover {
@@ -188,7 +187,6 @@
 .project-roll {
     display: inline-block;
     margin: 10px 15px 10px 0px;
-    border: 1px solid red;
     max-height: 681.4px;
     overflow: hidden;
     box-shadow: 1px 1px grey;
@@ -198,7 +196,6 @@
 .project-roll:hover {
     display: inline-block;
     margin: 10px 15px 10px 0px;
-    border: 1px solid red;
     max-height: 681.4px;
     overflow: hidden;
     position: relative;
@@ -217,7 +214,6 @@
     grid-template-columns: 4;
     grid-template-rows: 1;
     grid-gap: 5px;
-    border: 1px red solid;
 }
 
 
@@ -227,7 +223,6 @@
     max-width: auto !important;
     display: inline-block;
     margin: 10px 15px 10px 0px;
-    border: 1px solid red;
     overflow: hidden;
     box-shadow: 1px 1px grey;
     margin: 8px;
@@ -239,7 +234,6 @@
     max-width: auto !important;
     display: inline-block;
     margin: 10px 15px 10px 0px;
-    border: 1px solid red;
     overflow: hidden;
     box-shadow: 1px 1px grey;
     margin: 8px;
