@@ -181,7 +181,74 @@
 } 
 /* Logos Container */
 
+/* Roll-Up Container */
 
+.project-roll {
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    max-height: 681.4px;
+    overflow: hidden;
+    box-shadow: 1px 1px grey;
+    margin: 8px;
+}
+
+.project-roll:hover {
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    max-height: 681.4px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px grey;
+    margin: 8px;
+    bottom: 2px;
+    right: 2px;
+}
+
+.rollup {
+    max-width: 270px;
+}
+
+
+#rollupbox {
+    grid-template-columns: 4;
+    grid-template-rows: 1;
+    grid-gap: 5px;
+}
+
+
+#project-roll-large {
+    max-height: 681px;
+    min-width: auto !important;
+    max-width: auto !important;
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px grey;
+    margin: 8px;
+}
+
+#project-roll-large:hover {
+    max-height: 681px;
+    min-width: auto !important;
+    max-width: auto !important;
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px grey;
+    margin: 8px;
+    position: relative;
+    box-shadow: 5px 5px grey;
+    margin: 8px;
+    bottom: 2px;
+    right: 2px;
+}
+
+#rollup-large {
+    max-height: 681px;
+    min-width: auto !important;
+    max-width: auto !important;
+    display: inline-block;
+}
 
 @media all and (max-width: 500px) {
     .project1 {
